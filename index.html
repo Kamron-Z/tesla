@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="">
+   <title>Work</title>
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+   <main>
+
+      <div class="tesla">
+         <img src="./img/tesla_17.jpg" class="tesla__img" width="1200">
+
+         <!-- km price -->
+         <div class="tesla__mid">
+            <div class="tesla__item">
+               <p class="tesla__sup">Tesla проедет</p>
+               <p class="tesla__title" id="speed">750км</p>
+            </div>
+            <div class="tesla__item">
+               <p class="tesla__sup">Tesla стоит</p>
+               <p class="tesla__title" id="price">$89, 000</p>
+            </div>
+         </div>
+         <!-- bottom -->
+         <div class="tesla__bottom">
+            <div class="tesla__bottom_item">
+               <div class="bottom__left">
+                  <p class="bottom__sup">скорость автомобиля</p>
+                  <p class="bottom__km" id="km">60км/ч</p>
+               </div>
+               <div class="bottom__right">
+                  <button class="btn" id="btnUp" data-btn="km_up"><img src="./img/arrow-up-circle.svg" alt=""></button>
+                  <button class="btn btn-down" id="btnDown" data-btn="km_down"><img src="./img/arrow-up-circle.svg"
+                        alt=""></button>
+               </div>
+            </div>
+            <div class="tesla__bottom_item">
+               <div class="bottom__left">
+                  <p class="bottom__sup">Температу за окнами</p>
+                  <p class="bottom__km" id="deg">20&deg</p>
+               </div>
+               <div class="bottom__right">
+                  <button class="btn" data-btn="deg_up" id="btnUp"><img src="./img/arrow-up-circle.svg" alt=""></button>
+                  <button class="btn btn-down" data-btn="deg_down"><img src="./img/arrow-up-circle.svg" alt=""></button>
+               </div>
+            </div>
+            <div class="tesla__bottom_item">
+               <div class="bottom__left">
+                  <p class="bottom__sup">Диски</p>
+                  <p class="bottom__km" id="diski">17</p>
+               </div>
+               <div class="bottom__right">
+                  <button class="btn" data-btn="disk_up"><img src="./img/arrow-up-circle.svg" alt=""></button>
+                  <button disabled class="btn btn-down" data-btn="disk_down"><img src="./img/arrow-up-circle.svg"
+                        alt=""></button>
+               </div>
+            </div>
+            <div class="tesla__bottom_item">
+               <div class="bottom__left">
+                  <p class="bottom__sup">Кондиционер</p>
+                  <label>
+                     <input data-change="cond" type="checkbox">
+                     <span>выкл.</span>
+                  </label>
+               </div>
+            </div>
+            <div class="tesla__bottom_item">
+               <div class="bottom__left">
+                  <p class="bottom__sup">Версия Long Range</p>
+                  <label>
+                     <input data-change="long" type="checkbox">
+                     <span>выкл.</span>
+                  </label>
+               </div>
+            </div>
+            <div class="salon__colors">
+               <div class="bottom__left">
+                  <p class="bottom__sup">Цвета салона</p>
+               </div>
+               <div class="bottom__right color__item">
+               </div>
+            </div>
+            <div class="tesla__bottom_item">
+               <div class="bottom__left">
+                  <p class="bottom__sup">Вид автомобиля</p>
+                  <label>
+                     <input data-change="img" type="checkbox" checked>
+                     <span>выкл.</span>
+                  </label>
+               </div>
+            </div>
+         </div>
+      </div>
+   </main>
+
+   <script src="./js/app.js"></script>
+</body>
+
+</html>

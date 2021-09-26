@@ -1,0 +1,29 @@
+@font-face {
+   font-family: "OpenSans400";
+   src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+   font-family: "OpenSans700";
+   src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+   font-family: "OpenSans300";
+   src: url(../fonts/OpenSans-Italic.ttf);
+}
+
+@font-face {
+   font-family: "Montserrat400";
+   src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+   font-family: "Montserrat700";
+   src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+   font-family: "Montserrat300";
+   src: url(../fonts/Montserrat-Italic.ttf);
+}
